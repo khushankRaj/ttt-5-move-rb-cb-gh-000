@@ -13,6 +13,6 @@ index=0
 def input_to_index(array, index, input)
   array[index] = input
 end
-input_to_index(board, 5, "X")
+input_to_index(board, index, "X")
 board
 display_board(board)
