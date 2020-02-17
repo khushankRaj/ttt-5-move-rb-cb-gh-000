@@ -12,6 +12,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def input_to_index(array, index, input)
   array[index] = input
 end
-input_to_index(board, array[index], "X")
+input_to_index(board,index, "X")
 board
 display_board(board)
