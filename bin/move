@@ -6,6 +6,7 @@ puts"Welcome to Tic Tac Toe!"
 puts"Where would you like to go?"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 input=gets.strip
+index=0
 def input_to_index (array, index, input)
   array[index] = input
 end
