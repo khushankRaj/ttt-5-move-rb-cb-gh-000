@@ -9,10 +9,9 @@ puts"Welcome to Tic Tac Toe!"
 puts"Where would you like to go?"
 input=gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index=input
 def input_to_index(array, index, input)
   array[index] = input
 end
-input_to_index(board, index, "X")
+input_to_index(board, array[index], "X")
 board
 display_board(board)
