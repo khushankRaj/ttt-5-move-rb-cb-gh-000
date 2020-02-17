@@ -5,5 +5,14 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
-# code your input_to_index and move method here!
+puts"Welcome to Tic Tac Toe!"
+puts"Where would you like to go?"
+input=gets.strip
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index=input+1
+def input_to_index(array, index, input)
+  array[index] = input
+end
+input_to_index(board, 5, "X")
+board
+display_board(board)
